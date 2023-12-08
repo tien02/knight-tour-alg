@@ -119,7 +119,7 @@ void CheckerBoard::draw()
     {
         // Inititalize Board, Knight coordinates
         this->drawBoard(window, visited);
-        this->drawKnight(window, xStart, yStart);
+        this->drawKnight(window, this->xStart, this->yStart);
 
         // Visited first point
         std::pair<int, int> initPoint = {this->xStart, this->yStart};
